@@ -10,7 +10,8 @@ module org.example.orientationst_final {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires annotations;
 
-    opens org.example.orientationst_final to javafx.fxml;
-    exports org.example.orientationst_final;
+    opens org.controllers.orientationst_final to javafx.fxml;
+    exports org.views.orientationst_final;
 }
